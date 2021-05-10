@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Button Styles</title>
+</head>
+<body>
+   
+   <main class="main">
+      <h1>Button Styles</h1>
+       <div class="grid">
+           <div class="item gradient">
+               <div class="box">
+                  <span>Gradient Button</span>
+                   <a href="#" class="btn btn-grad">Click Here</a>
+                   <a href="#" class="btn btn-grad-1">Click Here</a>
+               </div>
+           </div>
+           <div class="item bordered">
+               <div class="box">
+                  <span>Fade In Out</span>
+                   <a href="#" class="btn first">Click Here</a>
+                   <a href="#" class="btn second">Click Here</a>
+               </div>
+           </div>
+           
+           <div class="item slide">
+               <div class="box">
+                <span>Slide Both Side</span>
+                <a href="#" class="btn btn-grad-3 first">Click Here</a>
+                <a href="#" class="btn btn-grad-3 second">Click Here</a>
+               </div>
+           </div>
+           <div class="item slide left">
+            <div class="box">
+               <span>Slide Left</span>
+               <a href="#" class="btn btn-grad-2 first">Click Here</a>
+               <a href="#" class="btn btn-grad-2 second">Click Here</a>
+            </div>
+        </div>
+           <div class="item group">
+                <div class="box">
+                    <span>Group Button</span>
+                    <div class="btn-group">
+                        <a href="#" class="btn price-btn first"><cite>Click Here</cite><span></span></a>
+                        <a href="#" class="btn price-btn second">Click Here <span></span></a>
+                    </div>
+                </div>
+            </div>
+
+           <div class="item neumorphism">
+               <div class="box">
+                  <span>Neumorphism</span>
+                   <a href="#" class="btn first">Click Here</a>
+                   <a href="#" class="btn second">Click Here</a>
+               </div>
+           </div>
+           <div class="item shadow">
+               <div class="box">
+                  <span>Shadow</span>
+                   <a href="#" class="btn first">Click Here</a>
+                   <a href="#" class="btn second">Click Here</a>
+               </div>
+           </div>
+           <div class="item slide-up">
+            <div class="box">
+               <span>Slide Up</span>
+               <a href="#" class="btn btn-grad-4 first">Click Here</a>
+               <a href="#" class="btn btn-grad-4 second">Click Here</a>
+            </div>
+        </div>
+        <div class="item neumorphism round">
+            <div class="box">
+               <span>Neumorphism Round</span>
+                <a href="#" class="btn first"><i class="fa fa-power-off" aria-hidden="true"></i></a>
+                <a href="#" class="btn second"><i class="fa fa-power-off" aria-hidden="true"></i></a>
+            </div>
+        </div>
+ 
+           <div class="item icon">
+            <div class="box">
+                <span>Social Media</span>
+                <a href="#" class="btn"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="btn"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="btn"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="btn"><i class="fa fa-play"></i></a>
+            </div>
+        </div>
+           <div class="item media-btn">
+               <div class="box">
+                  <span>Social Media</span>
+                  <a href="#" class="btn"><i class="fa fa-facebook"></i></a>
+                  <a href="#" class="btn"><i class="fa fa-instagram"></i></a>
+                  <a href="#" class="btn"><i class="fa fa-twitter"></i></a>
+                  <a href="#" class="btn"><i class="fa fa-play"></i></a>
+               </div>
+           </div>
+           <div class="item social-media">
+               <div class="box">
+                  <span>Social Media</span>
+                   <a href="#" class="btn">
+                       <div class="icon"><i class="fa fa-facebook"></i></div>
+                       <p>Facebook</p>
+                   </a>
+                   <a href="#" class="btn">
+                    <div class="icon"><i class="fa fa-twitter"></i></div>
+                    <p>Twitter</p>
+                   </a>
+                   <a href="#" class="btn">
+                    <div class="icon"><i class="fa fa-github"></i></div>
+                    <p>Github</p>
+                   </a>
+                <a href="#" class="btn">
+                    <div class="icon"><i class="fa fa-play"></i></div>
+                    <p>Youtube</p>
+                </a>
+               </div>
+           </div>
+       </div>
+   </main>
+  
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$('.price-btn.first').addClass('active');
+
+  $('.price-btn').hover(function () {
+    $('.price-btn').removeClass('active');
+    $(this).addClass('active');
+  });
+
+</script>
+</body>
+</html>
